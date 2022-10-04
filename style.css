@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit";
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  height: 667px;
+  width: 375px;
+  /*border: 1px solid;*/
+  background-color: #0d192c;
+  padding: 62px 24px;
+}
+.main-card {
+  background-color: #15263f;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.952);
+  padding: 24px;
+  border-radius: 15px;
+}
+img {
+  max-width: 100%;
+}
+h1,
+p {
+  font-family: "Outfit";
+  font-style: normal;
+}
+h1.heading {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #fff;
+}
+p.txt {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #8bacd9;
+  padding-top: 12px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  border-bottom: 1px solid #2e405a;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 6.5px;
+  padding: 16px 0;
+}
+
+.creator-box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+}
+.img-avatar {
+  width: 33px;
+}
+
+span {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+}
+.creator {
+  color: #8bacd9;
+  display: inline;
+}
+.avatar {
+  color: #ffffff;
+  display: inline;
+}
+
+@media (min-width: 375px) {
+  section {
+    height: 900px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-card {
+    width: 350px;
+    height: 596px;
+  }
+}

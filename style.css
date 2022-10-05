@@ -22,10 +22,33 @@ section {
   box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.952);
   padding: 24px;
   border-radius: 15px;
+  position: relative;
 }
 img {
   max-width: 100%;
 }
+.back-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay {
+  position: absolute;
+  right: 24px;
+
+  width: 302px;
+  height: 302px;
+  background-color: rgba(0, 255, 248, 0.503);
+  opacity: 0;
+}
+
+.overlay:active,
+.overlay:hover {
+  opacity: 1;
+}
+
 h1,
 p {
   font-family: "Outfit";

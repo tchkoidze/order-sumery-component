@@ -109,7 +109,7 @@ p {
   text-align: center;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 375px) {
   section {
     width: 144rem;
     height: 90rem;

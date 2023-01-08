@@ -16,6 +16,7 @@ body {
   align-items: center;
   background: rgb(224, 232, 255) url("images/pattern-background-mobile.svg")
     no-repeat 50% 0;
+  background-size: contain;
 }
 img {
   display: block;
@@ -112,7 +113,8 @@ p {
 @media (min-width: 1440px) {
   body {
     background: rgb(224, 232, 255) url(images/pattern-background-desktop.svg)
-      no-repeat center top;
+      no-repeat center -10%;
+    background-size: contain;
   }
 
   .main-container {
